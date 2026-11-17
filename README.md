@@ -1,4 +1,4 @@
-# lunacal-ai
+# Lunacal
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-lunacal-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://lunacal.ai/
+Lunacal provides an online appointment booking and scheduling platform for businesses of all sizes. Their AI‑powered system supports multi‑service bookings, team scheduling, payments, calendar sync, and customizable workflows across industries such as legal, consulting, healthcare, education, and personal services. Operating from Sheridan, WY, Lunacal serves a global customer base with a GDPR‑compliant, commission‑free solution.
+
+**Areas:** Scheduling · Appointment · AI · SaaS · Business
+
+## Lunacal on APIs.io
+
+Everything profiled for Lunacal is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lunacal-ai/](https://apis.io/providers/lunacal-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Lunacal API](https://apis.io/apis/lunacal-ai/lunacal-api/) — Lunacal API provides scheduling and appointment booking functionality as documented in the developer portal.
+- [Lunacal API](https://apis.io/apis/lunacal-ai/lunacal-ai-api/) — Lunacal API as documented publicly: 11 operations. Contract generated from the documentation by API Evangelist (2026-11-17); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Lunacal Ai Webhooks](https://apis.io/asyncapis/lunacal-ai/lunacal-ai-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostApiAvailabilityRequest](https://apis.io/schemas/lunacal-ai/lunacal-ai-post-api-availability-request/)
+- [PostApiBookingsCreateRequest](https://apis.io/schemas/lunacal-ai/lunacal-ai-post-api-bookings-create-request/)
+- [PostApiBookingsListRequest](https://apis.io/schemas/lunacal-ai/lunacal-ai-post-api-bookings-list-request/)
+- [PostApiEventTypesCreateRequest](https://apis.io/schemas/lunacal-ai/lunacal-ai-post-api-event-types-create-request/)
+- [PostApiEventTypesListRequest](https://apis.io/schemas/lunacal-ai/lunacal-ai-post-api-event-types-list-request/)
+- [PostApiEventTypesUpdateRequest](https://apis.io/schemas/lunacal-ai/lunacal-ai-post-api-event-types-update-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lunacal Ai Context](https://apis.io/jsonld/lunacal-ai/lunacal-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Lunacal API Rules](https://apis.io/rules/lunacal-ai/lunacal-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lunacal Authentication](https://apis.io/security/lunacal-ai/lunacal-ai-authentication/)
+- [Lunacal Domain Security](https://apis.io/security/lunacal-ai/lunacal-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Lunacal Plans Pricing](https://apis.io/plans/lunacal-ai/lunacal-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lunacal.ai/)
+- [Documentation](https://help.lunacal.ai/)
+- [Getting started](https://help.lunacal.ai/event-types/event-setup)
+- [Pricing](https://lunacal.ai/pricing)
+- [Privacy policy](https://lunacal.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 50.3** — developing · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 62.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.1 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 59.1 |
+
+**Agent readiness 32.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lunacal-ai/](https://apis.io/providers/lunacal-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lunacal: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lunacal-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
